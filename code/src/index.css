@@ -3,3 +3,28 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+h1 {
+  font-size: 40px;
+  width: 50px;
+  margin-top: 30px;
+}
+
+.station {
+  widht: 50%;
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  margin: 20px;
+  /* background-color: {this.props.color}; */
+}
+
+.name-audio {
+  margin: 30px;
+
+}
+
+img {
+  width: 40%;
+  margin: 30px;
+}

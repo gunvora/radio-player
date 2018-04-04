@@ -6,25 +6,26 @@ body {
 
 h1 {
   font-size: 40px;
-  width: 50px;
-  margin-top: 30px;
-}
-
-.station {
-  widht: 50%;
-  display: flex;
-  flex-direction: row;
-  border-style: solid;
-  margin: 20px;
-  /* background-color: {this.props.color}; */
-}
-
-.name-audio {
-  margin: 30px;
-
+  width: 220px;
+  height: 100px;
 }
 
 img {
-  width: 40%;
+  width: 150px;
   margin: 30px;
 }
+
+audio{
+  max-width: 150px;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.station {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-style: solid;
+  margin: 40px;
+  }

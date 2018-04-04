@@ -9,7 +9,7 @@ class Station extends React.Component {
           <img src={this.props.image} alt="img" />
         </div>
         <div>
-          <div className="name-audio">
+          <div>
             <h1> {this.props.name}</h1>
           </div>
           <div>

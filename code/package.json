@@ -1,10 +1,11 @@
 {
   "name": "react-starter",
-  "homepage": "https://gunvora.github.io/radioplayer",
+  "homepage": "https://gunvora.github.io/assignment-radio-player",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "eslint-config-technigo": "^1.4.0",
+    "gh-pages": "^1.1.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-scripts": "1.0.16"
